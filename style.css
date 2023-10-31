@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(220, 192, 246);
+}
+
+.contenedor-header{
+    background: #f0e4fe;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 16%;
+    box-shadow: 22px;
+    color: rgb(38, 26, 61);
+    font-size: 22px;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 0px;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+
+header h4 {
+    text-align: center;
+    left: 20%;
+    position: relative;
+
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 0px;
+    transition: .5s;
+    text-decoration: none;
+    
+    color: rgb(38, 26, 61);
+}
+
+
+
+
+.container{
+    width: 300px;
+    background-color: rgb(38, 26, 61);
+    position: relative;
+    margin-top: 20%;
+    text-align: center;
+    border-radius: 24px;
+    margin-left: 35%;
+    color: #fff;
+}
+
+.color{
+    color: rgb(6, 6, 203);
+}
+
+.btn-change{ 
+    width: 10%;
+    height: 40px;
+    background-color: rgb(220, 192, 246);
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 42%;
+    color: rgb(255, 255, 255);
+    border-style: dashed;
+font-size: 16px;
+}
+
+.btn-change:hover{
+    background: rgb(28, 14, 50);
+}
+

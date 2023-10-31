@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+                <h4>Color-Flipper </h4>
+            <nav id="nav">
+                <ul>
+                    <li><a href="caja.html" onclick="mover()">Simple</a></li>
+                    <li><a href="hex.html" onclick="mover()">Hex</a></li>    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            </div>
+        </header>
+        </div>
+
+    <main>
+        <div class="container">
+            <h2>Background-Color:<br/> <span class="color">#Colors</span></h2>
+            
+        </div>
+        <strong> <button class="btn-change" id="btn">Change color</button> </strong>
+    </main>
+
+    <script src="hex.js"></script>
+</body>
+</html>
